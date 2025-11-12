@@ -1,0 +1,1 @@
+image_blend = c_white; //gives the player 1 second of not being able to be hit
