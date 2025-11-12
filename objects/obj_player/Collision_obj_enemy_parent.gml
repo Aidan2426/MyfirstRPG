@@ -17,3 +17,4 @@ if(alarm[0] < 0){
 //heres a test change
 //tbh this shit is still not working
 //Test
+//The conclusion was that my file had spaces in it and that made it not work
