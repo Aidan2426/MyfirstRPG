@@ -25,5 +25,14 @@ function add_xp(_xp_to_add)
         hp_total +=5;
         hp = hp_total;
         damage += 0.8;
+        
+        create_dialog([
+        {
+            name: "Congrats", 
+            msg: $"You leveled up! Your new stats are:\nLVEL:{level}\nHP{hp_total}\nDMG {damage}"
+        }
+        ])
     }
 }
+
+

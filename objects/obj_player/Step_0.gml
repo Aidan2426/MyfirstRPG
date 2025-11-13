@@ -1,3 +1,6 @@
+if(instance_exists(obj_dialog)) exit;
+
+
 var _hor = keyboard_check(ord("D")) - keyboard_check(ord("A")); //im game maker to go left x -1, to go right x + 1
 var _ver = keyboard_check(ord("S")) - keyboard_check(ord("W"));
 

@@ -1,3 +1,5 @@
+if(instance_exists(obj_dialog)) exit;
+    
 if(alarm[1] >= 0){ //while alarm 1 is counting down its a negative
     target_x = x+kb_x;
     target_y = y+kb_y;
