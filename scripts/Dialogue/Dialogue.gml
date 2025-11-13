@@ -16,6 +16,18 @@ char_colors = {
     
 }
 
+room1_end = [
+    {
+        name: "Cross",
+        msg: "You have reached the end!\n But there is more."
+    }, 
+    {
+        name: "Cross",
+        msg: "Please proceed to the next area."
+    },
+        
+]
+
 welcome_dialog = [
 {
     name: "Cross", 
@@ -50,3 +62,4 @@ cam_diag1 = [
 }, 
     
 ]
+
